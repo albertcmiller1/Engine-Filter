@@ -92,6 +92,9 @@ print("length of SimpXarray: ", len(SimpXarray))
 # this length needs to be the same length of the new X array we trying to create
 # from there, we need to go pick out the times wanted from the index of that array 
 
+# print(f"SimpXarray: {SimpXarray[0:10]}")
+# print(f"xxx: {xxx[0:10]}")
+
 plt.figure(figsize=(11, 9))
 plt.plot(xxx, Yarray, 'k')
 plt.plot(SimpXarray, UB, 'r--', label="Upper Bound")
