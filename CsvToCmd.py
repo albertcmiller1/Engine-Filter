@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv(r'C:\Users\alber\Desktop\SHIT.csv', index_col='Time')
+data = pd.read_csv(r"example.csv", index_col='Time')
 Ydata = pd.DataFrame(data, columns= ['Data'])
 
 #print(Ydata['Data'][0])
@@ -20,7 +20,7 @@ for x in Ydata['Data']:
     Yvalues.append(x)
     pass
 
-
+print('Xvalues')
 print(Xvalues)
-print('shit')
+print('Yvalues')
 print(Yvalues)
